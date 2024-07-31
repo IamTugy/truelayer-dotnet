@@ -29,5 +29,7 @@
   <ItemGroup>
     <None Include="..\shared\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
-  <Import Project="..\..\test\TrueLayer.Tests\TrueLayer.Tests.csproj" Label="Shared" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\test\TrueLayer.Tests\TrueLayer.Tests.csproj" />
+  </ItemGroup>
 </Project>
