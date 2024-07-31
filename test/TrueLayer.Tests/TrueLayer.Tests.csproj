@@ -22,7 +22,4 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
     <PackageReference Include="Moq" Version="4.16.1" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\TrueLayer\TrueLayer.csproj" />
-  </ItemGroup>
 </Project>
