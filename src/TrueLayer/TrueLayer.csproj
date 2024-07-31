@@ -30,6 +30,6 @@
     <None Include="..\shared\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\test\TrueLayer.Tests\TrueLayer.Tests.csproj" />
+    <ProjectReference Include="./another.csproj" />
   </ItemGroup>
 </Project>
